@@ -31,7 +31,7 @@ expander_bar.markdown("""
 
 
 col1.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/Coffee-max/penguin-species-detection-app-heroku/main/penguin_user_input_example.csv)
+[Example CSV input file](https://github.com/samarthRathi/penguin-species-detection-app-heroku/blob/main/penguin_user_input_example.csv)
 """)
 
 # Collects user input features into dataframe
@@ -57,7 +57,7 @@ else:
     input_df = user_input_features()
 
 url = 'https://raw.githubusercontent.com/dataprofessor/streamlit_freecodecamp/main/app_8_classification_penguins/penguins_cleaned.csv'
-
+#Data taken from Data Professor(https://github.com/dataprofessor)
 penguins_raw = pd.read_csv(url)
 penguins = penguins_raw.drop(columns=['species'],axis=1)
 df = pd.concat([input_df,penguins],axis=0)

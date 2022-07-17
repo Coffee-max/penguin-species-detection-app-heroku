@@ -31,7 +31,7 @@ expander_bar.markdown("""
 
 
 col1.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/penguins_example.csv)
+[Example CSV input file](https://raw.githubusercontent.com/Coffee-max/penguin-species-detection-app-heroku/main/penguin_user_input_example.csv)
 """)
 
 # Collects user input features into dataframe

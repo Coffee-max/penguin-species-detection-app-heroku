@@ -78,7 +78,7 @@ else:
     col2.write(df)
 
 # Reads in saved classification model
-load_clf = pickle.load(open('C:/Users/samar/Desktop/Python/Streamlit DS Projects/Penguin EDA/pg_clf.pkl', 'rb'))
+load_clf = pickle.load(open('pg_clf.pkl', 'rb'))
 
 # Apply model to make predictions
 prediction = load_clf.predict(df)

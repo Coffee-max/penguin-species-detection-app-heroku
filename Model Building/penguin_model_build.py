@@ -1,6 +1,7 @@
 from multiprocessing import dummy
 import pandas as pd
 url = 'https://raw.githubusercontent.com/dataprofessor/streamlit_freecodecamp/main/app_8_classification_penguins/penguins_cleaned.csv'
+#Data taken from Data Professor(https://github.com/dataprofessor)
 
 penguins = pd.read_csv(url)
 df = penguins.copy()
